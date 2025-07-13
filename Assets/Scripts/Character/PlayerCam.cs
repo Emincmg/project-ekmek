@@ -2,13 +2,31 @@ using UnityEngine;
 
 public class PlayerCam : MonoBehaviour
 {
+    /// <summary>
+    /// X axis sensation of the camera.
+    /// </summary>
     public float sensX;
+    
+    /// <summary>
+    /// Y axis sensation of the camera.
+    /// </summary>
     public float sensY;
 
+    /// <summary>
+    /// Orientation of the transform object of the camera.
+    /// </summary>
     public Transform orientation;
 
+    /// <summary>
+    /// X axis rotation of the camera.
+    /// </summary>
     public float xRotation;
+    
+    /// <summary>
+    /// Y axis rotation of the camera.
+    /// </summary>
     public float yRotation;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

@@ -8,7 +8,7 @@ public class InteractionManager : MonoBehaviour
 {
     [FormerlySerializedAs("InteractorSource")] public Transform interactorSource;
     [FormerlySerializedAs("InteractRange")] public float interactRange = 2f;
-
+    public CanvasGroup interactorCanvasGroup;
     void Update()
     {
         Ray r = new Ray(interactorSource.position, interactorSource.forward);
